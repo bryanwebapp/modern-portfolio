@@ -1,1 +1,8 @@
-
+{
+"scripts": {
+"dev": "vite --host",
+"build": "vite build && esbuild server/index.ts --platform=node --packages=e
+"start": "NODE_ENV=production node dist/index.js",
+"preview": "vite preview --host"
+}
+}
